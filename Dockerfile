@@ -10,7 +10,7 @@ FROM python:3.11-slim-bullseye
 WORKDIR /opt/sherlock
 
 ARG VCS_REF
-ARG VCS_URL="https://github.com/sherlock-project/sherlock"
+ARG VCS_URL="https://github.com/networkeyuel/sherlock"
 
 LABEL org.label-schema.vcs-ref=$VCS_REF \
       org.label-schema.vcs-url=$VCS_URL
