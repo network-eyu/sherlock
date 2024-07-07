@@ -11,14 +11,14 @@ body:
     attributes:
       label: Description
       description: Describe the feature you are requesting
-      placeholder: I'd like Sherlock to be able to do xyz
+      placeholder: I'd like Sherlock to be able to do com
     validations:
       required: true
   - type: checkboxes
     id: terms
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/sherlock-project/sherlock/blob/master/docs/CODE_OF_CONDUCT.md). 
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/networkeyuel/sherlock/blob/master/docs/CODE_OF_CONDUCT.md). 
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
